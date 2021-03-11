@@ -21,12 +21,12 @@
 // -------------------------------------------------------------------------------------
 // | ESС  |  Q  |  W  |  E  |  R  |  T  |         |  Y   |  U   |  I  |  O  |  P  |  LEFT_BRACKET   |
 // | SHFT |  A  |  S  |  D  |  F  |  G  |         |  H   |  J   |  K  |  L  |  ;  |        '        |
-// | CTRL |  Z  |  X  |  C  |  V  |  B  |         |  N   |  M   |  ,  |  .  |  /  |  RIGHT_BRACKET  |
+// | CTRL |  Z  |  X  |  C  |  V  |  B  |         |  N   |  M   |  ,  |  .  |  /  |  P  |
 //                          | ALT | LWR | RSE_SPC | BKSP | WIN  |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp E &kp R     &kp T   &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBRC
    &kp LSHFT &kp A &kp S &kp D &kp F     &kp G   &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LCTRL &kp Z &kp X &kp C &kp V     &kp B   &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp RBKT
+   &kp LCTRL &kp Z &kp X &kp C &kp V     &kp B   &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp P
                                &kp LALT  &mo LWR &lt RSE SPACE &kp BSPC  &kp LWIN
                         >;
                 };
