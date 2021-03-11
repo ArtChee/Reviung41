@@ -27,7 +27,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R     &kp T   &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBRC
    &kp LSHFT &kp A &kp S &kp D &kp F     &kp G   &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V     &kp B   &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp RBKT
-                               &kp LALT  &mo LWR &lt RSE SPACE &kp BSPC  &kp LWIN
+                               &kp LALT  &mo LWR &KP SPACE &kp BSPC  &kp LWIN
                         >;
                 };
 
@@ -41,7 +41,7 @@
    &kp TAB   &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp N8 &kp LPAR &kp RPAR  &kp DEL
    &trans    &trans    &kp LEFT    &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans   &trans    &kp GRAVE
    &trans    &trans    &kp PG_UP   &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans   &trans    &kp ENTER
-                                   &trans   &trans       &lt ADJ ENTER    &trans    &trans
+                                   &trans   &trans       &KP ENTER    &trans    &trans
                         >;
                 };
 
