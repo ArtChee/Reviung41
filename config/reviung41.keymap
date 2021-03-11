@@ -36,12 +36,12 @@
 // |  TAB  |  !  |   @   |  #   |   $   |  %   |           |  ^  |  &  |  *  |  (  |  )  |  DEL  |
 // |       |     | LEFT  |  UP  | RIGHT | HOME |           |     |     |     |     |     |   ~   |
 // |       |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     | ENTER |
-//                              |       |      | ADJ_ENTER |     |     |
+//                              |  ALT  |      | ADJ_ENTER |     |     |
                         bindings = <
    &kp TAB   &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp N8 &kp LPAR &kp RPAR  &kp DEL
    &trans    &trans    &kp LEFT    &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans   &trans    &kp GRAVE
    &trans    &trans    &kp PG_UP   &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans   &trans    &kp ENTER
-                                   &trans   &trans       &lt ADJ ENTER    &trans    &trans
+                                   &kp LALT   &trans       &lt ADJ ENTER    &trans    &trans
                         >;
                 };
 
