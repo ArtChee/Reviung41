@@ -27,7 +27,7 @@
    &kp ESC   &kp Q &kp W &kp E &kp R     &kp T   &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBRC
    &kp LSHFT &kp A &kp S &kp D &kp F     &kp G   &kp H         &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V     &kp B   &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp RBKT
-                               &kp LALT  &mo lwr &lt rse SPACE &kp BSPC  &kp LWIN
+                               &kp LALT  &mo LWR &lt RSE SPACE &kp BSPC  &kp LWIN
                         >;
                 };
 
@@ -38,10 +38,10 @@
 // |       |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     | ENTER |
 //                              |       |      | ADJ_ENTER |     |     |
                         bindings = <
-   &TAB   &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp N8 &kp LPAR &kp RPAR  &kp DEL
-   &trans &trans    &kp LEFT    &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans   &trans    &kp GRAVE
-   &trans &trans    &kp PG_UP   &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans   &trans    &kp ENTER
-                                &trans   &trans       &lt adj ENTER    &trans    &trans
+   &kp TAB   &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp N8 &kp LPAR &kp RPAR  &kp DEL
+   &trans    &trans    &kp LEFT    &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans   &trans    &kp GRAVE
+   &trans    &trans    &kp PG_UP   &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans   &trans    &kp ENTER
+                                   &trans   &trans       &lt ADJ ENTER    &trans    &trans
                         >;
                 };
 
@@ -55,21 +55,21 @@
    &trans &trans &KP_N1 &KP_N2 &KP_N3 &KP_MINUS          &trans &kp F1  &kp F2  &kp F3  &kp F4  &kp DEL
    &kp LSHFT &trans &KP_N4 &KP_N5 &KP_N6 &KP_PLUS        &trans &kp F5  &kp F6  &kp F7  &kp F8  &trans
    &kp LCTRL &KP_DOT &KP_N7 &KP_N8 &KP_N9 &KP_SLASH      &trans &kp F9  &kp F10 &kp F11 &kp F12 &kp BSLH
-                    &KP_N9     &mo adj       &trans        &trans       &trans
+                    &KP_N0     &mo ADJ       &trans        &trans       &trans
                         >;
                 };
 
-                adjust_layer {
+                ADJust_layer {
 // -----------------------------------------------------------------------------------------
 // | RGB BRI+ | RGB SAT+ | RGB HUE+ | RGB ANI+ |    | RGB TOG |   |  BT1  | BT2 | BT3 | BT4 | BT5 | BT CLR |
 // | RGB BRI- | RGB SAT- | RGB HUE- | RGB ANI+ |    |         |   |       |     |     |     |     |        |
-// |          |          |          |          |    |         |   |  C_ALT_AUDIO_INC |     |     |     |     |        |
-//                                              |     |     |     |     |     |
+// |          |          |          |          |    |         |   |       |     |     |     |     |        |
+//                                  |          |    |         |   |       |
                         bindings = <
    &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none &rgb_ug RGB_TOG    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
    &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none              &none        &none        &none        &none        &none        &none
-   &none           &none           &none           &none           &none &none              &C_ALT_AUDIO_INC       &none        &none        &none        &none        &none
-                                                             &trans      &trans       &tog 3        &trans      &trans
+   &none           &none           &none           &none           &none &none              &none       &none        &none        &none        &none        &none
+                                                             &trans      &trans       &trans        &trans      &trans
                         >;
                 };
         };
