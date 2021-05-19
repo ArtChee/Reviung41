@@ -53,9 +53,9 @@
 // | CTRL |  =  |  7  |  8  |  9  |  .  |   |     | F9 | F10 | F11 | F12 | BACKSLASH |
 //                          |  0  | ADJ |   |     |    |
                         bindings = <
-   &kp F2    &kp KP_ASTERISK     &kp N1 &kp N2 &kp N3 &kp MINUS             &trans &kp F1  &kp F2  &kp F3  &kp F4  &kp DEL
-   &kp LSHFT &kp KP_SLASH        &kp N4 &kp N5 &kp N6 &kp KP_PLUS           &trans &kp F5  &kp F6  &kp F7  &kp F8  &trans
-   &kp LCTRL &kp KP_EQUAL_AS400  &kp N7 &kp N8 &kp N9 &kp KP_DOT            &trans &kp F9  &kp F10 &kp F11 &kp F12 &kp BSLH
+   &kp F2    &kp KP_ASTERISK &kp N1 &kp N2 &kp N3 &kp MINUS             &trans &kp F1  &kp F2  &kp F3  &kp F4  &kp DEL
+   &kp LSHFT &kp KP_SLASH    &kp N4 &kp N5 &kp N6 &kp KP_PLUS           &trans &kp F5  &kp F6  &kp F7  &kp F8  &trans
+   &kp LCTRL &kp EQUAL       &kp N7 &kp N8 &kp N9 &kp KP_DOT            &trans &kp F9  &kp F10 &kp F11 &kp F12 &kp BSLH
                                            &kp N0 &mo ADJ    &trans  &trans &trans
                         >;
                 };
