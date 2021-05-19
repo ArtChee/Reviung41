@@ -35,13 +35,13 @@
                 lower_layer {
 // ----------------------------------------------------------------------------------
 // |  TAB  |  !  |   @   |  #   |   $   |  %   |           |  ^  |  &  |  *  |  (  |  )  |  DEL  |
-// |       |     | LEFT  |  UP  | RIGHT | HOME |           |     |     |     |     |     |   ~   |
-// |       |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     | ENTER |
+// |  SHFT |     | LEFT  |  UP  | RIGHT | HOME |           |     |     |     |     |     |   ~   |
+// |  CTRL |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     | ENTER |
 //                              |  ALT  |      | ADJ_ENTER |     |     |
                         bindings = <
-   &kp TAB   &kp EXCL  &kp AT      &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR  &kp DEL
-   &trans    &trans    &kp LEFT    &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans     &trans    &kp GRAVE
-   &trans    &trans    &kp PG_UP   &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans     &trans    &kp ENTER
+   &kp TAB    &kp EXCL  &kp AT     &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR  &kp DEL
+   &kp LSHFT  &trans    &kp LEFT   &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans     &trans    &kp GRAVE
+   &kp LCTRL  &trans    &kp PG_UP  &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans     &trans    &kp ENTER
                                    &kp LALT &trans       &lt ADJ ENTER       &trans   &trans
                         >;
                 };
