@@ -20,9 +20,9 @@
 
                 default_layer {
 // -------------------------------------------------------------------------------------
-// | ESС  |  Q  |  W  |  E  |  R  |  T  |         |  Y   |  U   |  I  |  O  |  P  |  LEFT_BRACKET   |
-// | SHFT |  A  |  S  |  D  |  F  |  G  |         |  H   |  J   |  K  |  L  |  ;  |        '        |
-// | CTRL |  Z  |  X  |  C  |  V  |  B  |         |  N   |  M   |  ,  |  .  |  /  |  RIGHT_BRACKET  |
+// | ESС  |  Q  |  W  |  E  |  R  |  T  |         |  Y   |  U   |  I  |  O  |  P  |  [  |
+// | SHFT |  A  |  S  |  D  |  F  |  G  |         |  H   |  J   |  K  |  L  |  ;  |  '  |
+// | CTRL |  Z  |  X  |  C  |  V  |  B  |         |  N   |  M   |  ,  |  .  |  /  |  ]  |
 //                          | ALT | LWR | RSE_SPC | BKSP | WIN  |
                         bindings = <
    &kp ESC   &kp Q &kp W &kp E &kp R     &kp T   &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT
@@ -36,26 +36,26 @@
 // ----------------------------------------------------------------------------------
 // |  TAB  |  !  |   @   |  #   |   $   |  %   |           |  ^  |  &  |  *  |  (  |  )  |  DEL  |
 // |  SHFT |     | LEFT  |  UP  | RIGHT | HOME |           |     |     |     |     |     |   ~   |
-// |  CTRL |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     | ENTER |
+// |  CTRL |     | PG_UP | DOWN | PG_DN | END  |           |     |     |     |     |     |   \   |
 //                              |  ALT  |      | ADJ_ENTER |     |     |
                         bindings = <
    &kp TAB    &kp EXCL  &kp AT     &kp HASH &kp DLLR  &kp PRCNT    &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR  &kp DEL
    &kp LSHFT  &trans    &kp LEFT   &kp UP   &kp RIGHT &kp HOME     &trans    &trans   &trans &trans     &trans    &kp GRAVE
-   &kp LCTRL  &trans    &kp PG_UP  &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans     &trans    &kp ENTER
+   &kp LCTRL  &trans    &kp PG_UP  &kp DOWN &kp PG_DN &kp END      &trans    &trans   &trans &trans     &trans    &kp BSLH
                                    &kp LALT &trans       &lt ADJ ENTER       &trans   &trans
                         >;
                 };
 
                 raise_layer {
 // ----------------------------------------------------------------------------------------
-// |  F2  |  *  |  1  |  2  |  3  |  -  |   |     | F1 | F2  | F3  | F4  |    DEL    |
-// | SHFT |  /  |  4  |  5  |  6  |  +  |   |     | F5 | F6  | F7  | F8  |           |
-// | CTRL |  =  |  7  |  8  |  9  |  .  |   |     | F9 | F10 | F11 | F12 | BACKSLASH |
+// |  F2  |  *  |  1  |  2  |  3  |  -  |   |     | F1 | F2  | F3  | F4  | DEL |
+// | SHFT |  /  |  4  |  5  |  6  |  +  |   |     | F5 | F6  | F7  | F8  |  ~  |
+// | CTRL |  =  |  7  |  8  |  9  |  .  |   |     | F9 | F10 | F11 | F12 |  \  |
 //                          |  0  | ADJ |   |     |    |
                         bindings = <
    &kp F2    &kp KP_ASTERISK &kp N1 &kp N2 &kp N3 &kp MINUS             &trans &kp F1  &kp F2  &kp F3  &kp F4  &kp DEL
-   &kp LSHFT &kp KP_SLASH    &kp N4 &kp N5 &kp N6 &kp KP_PLUS           &trans &kp F5  &kp F6  &kp F7  &kp F8  &trans
-   &kp LCTRL &kp EQUAL       &kp N7 &kp N8 &kp N9 &kp KP_DOT            &trans &kp F9  &kp F10 &kp F11 &kp F12 &kp BSLH
+   &kp LSHFT &kp KP_SLASH    &kp N4 &kp N5 &kp N6 &kp KP_PLUS           &trans &kp F5  &kp F6  &kp F7  &kp F8  &kp GRAVE
+   &kp LCTRL &kp KP_ENTER    &kp N7 &kp N8 &kp N9 &kp KP_DOT            &trans &kp F9  &kp F10 &kp F11 &kp F12 &kp BSLH
                                            &kp N0 &mo ADJ    &trans  &trans &trans
                         >;
                 };
